@@ -484,7 +484,7 @@ function TerminalTypewriter() {
         <span className="ml-3 text-[#64748b] text-[10px] font-medium tracking-widest uppercase">terminal — bash</span>
       </div>
       {/* Terminal body */}
-      <div className="bg-[#0f172a] p-4 min-h-[90px] text-left">
+      <div className="bg-[#0f172a] p-4 h-[140px] sm:h-[130px] text-left">
         {/* Previous completed lines hint */}
         <div className="text-[#475569] text-[10px] mb-2">praneth@ai:~$ <span className="text-[#64748b]">whoami</span></div>
         <div className="text-[#22d3ee] text-[10px] mb-3">AI Engineer · Full-Stack Dev · LLM Builder</div>
@@ -640,14 +640,14 @@ function Hero() {
           </div>
         </div>
 
-        <div className="lg:col-span-2 hidden lg:flex justify-center mt-12 lg:mt-0 relative h-full items-start pt-16 lg:pt-24">
-          <div className="hanging-wrapper relative w-64 mt-16 scale-125 origin-top">
+        <div className="lg:col-span-2 flex justify-center mt-24 sm:mt-12 lg:mt-0 relative h-full items-start pt-12 lg:pt-16">
+          <div className="hanging-wrapper relative w-64 mt-12 scale-[0.85] sm:scale-100 lg:scale-125 origin-top">
             {/* Box above the strap */}
-            <div className="absolute -top-[132px] left-1/2 -translate-x-1/2 w-32 h-8 bg-slate-900 border-2 border-foreground shadow-[4px_4px_0_var(--foreground)] z-30 flex items-center justify-center">
+            <div className="absolute -top-[92px] left-1/2 -translate-x-1/2 w-32 h-8 bg-slate-900 border-2 border-foreground shadow-[4px_4px_0_var(--foreground)] z-30 flex items-center justify-center">
               <div className="w-16 h-1 rounded-full bg-slate-700"></div>
             </div>
             {/* Strap */}
-            <div className="absolute -top-[100px] left-1/2 -translate-x-1/2 w-8 h-[120px] bg-slate-800 rounded-t-none rounded-b-md shadow-inner" />
+            <div className="absolute -top-[60px] left-1/2 -translate-x-1/2 w-8 h-[80px] bg-slate-800 rounded-t-none rounded-b-md shadow-inner" />
             {/* Clip */}
             <div className="absolute -top-4 left-1/2 -translate-x-1/2 w-20 h-6 bg-slate-900 rounded-lg border-2 border-slate-700 shadow-md z-20 flex justify-center items-center">
                <div className="w-12 h-2 rounded-full bg-slate-800" />
