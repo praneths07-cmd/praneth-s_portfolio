@@ -662,8 +662,9 @@ function Hero() {
               <div className="text-center font-mono font-bold text-[10px] tracking-[0.2em] text-foreground/80 uppercase mb-1">
                 Cross-Platform
               </div>
-              <div className="text-center font-display font-black text-[24px] text-foreground leading-tight uppercase">
-                AI<br />Engineer
+              <div className="text-center font-display font-black text-foreground leading-tight uppercase flex flex-col">
+                <span className="text-[20px]">AI-Engineer</span>
+                <span className="text-[12px] opacity-80 mt-0.5">& Full Stack Developer</span>
               </div>
             </div>
           </div>
